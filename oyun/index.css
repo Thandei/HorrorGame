@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#canvas {
+    width: 70rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 80px;
+    position: relative;
+    height: 32rem;
+}
+
+.not {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 17rem;
+    left: 12rem;
+    background-image: url("./Not\ yazısı\ .png");
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    transition: all 300ms ease-in-out;
+}
+
+.not:hover {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    transform: rotate(0deg)
+}
+
+.insideDiv {
+    width: 100%;
+    text-align: center;
+    word-wrap: normal;
+    background-color: white;
+    opacity: 0.5;
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.chatbox {
+    width: 100%;
+}
+
+.Out {
+    position: absolute;
+    top: 12rem;
+    right: 5rem;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 50%;
+    font-weight: 500;
+    transition: all 300ms ease-in-out;
+    opacity: 0.5;
+}
+
+.Out:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.GameOver {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    border: 10px solid black;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 2%;
+}
+
+.timer {
+    position: absolute;
+    top: -70px;
+    left: 30px;
+    background-color: white;
+    padding: 1.5rem;
+    opacity: 0.7;
+    border-radius: 2.5%;
+}
+
+.overlay {
+    background-color: black !important;
+}
+
+.overlayDiv {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    text-align: center;
+    border: 2px solid white !important;
+    z-index: 100000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    opacity: 0.9;
+    font-weight: bold;
+    font-family: 'Potta One', cursive;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 10rem;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.overlayContainer {
+    display: flex;
+    justify-content: space-around;
+}

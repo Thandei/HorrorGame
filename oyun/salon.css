@@ -1,0 +1,173 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url("./salonbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.gifİmage {
+    display: inline-block;
+    width: 100px;
+    height: 500px;
+}
+
+.container {
+    position: relative;
+}
+
+.merdiven {
+    position: absolute;
+    background-image: url("./salonMerdiven.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 450px;
+}
+
+.saat {
+    position: absolute;
+    background-image: url("./salonsaat2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 2rem;
+    left: 60rem;
+    width: 70px;
+    height: 140px;
+}
+
+.halı {
+    position: absolute;
+    background-image: url("./selonedityhalilı.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 30rem;
+    left: 0rem;
+    width: 1300px;
+    height: 200px;
+}
+
+.resim {
+    position: absolute;
+    background-image: url("./salonTablo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0rem;
+    left: 40rem;
+    width: 240px;
+    height: 270px;
+}
+
+.tuvaletKapı {
+    position: absolute;
+    background-image: url("./kapıSalon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 1rem;
+    left: 0rem;
+    width: 240px;
+    height: 480px;
+}
+
+.ghostMerdiven {
+    position: absolute;
+    width: 50px;
+    height: 120px;
+    cursor: pointer;
+    /* visibility: hidden; */
+    opacity: 0;
+    top: 10rem;
+    right: 12rem;
+}
+
+.button {
+    padding: 20rem;
+    padding-bottom: 15rem;
+    padding-left: 10rem;
+}
+
+.ghostResim {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    cursor: pointer;
+    /* visibility: hidden; */
+    opacity: 0;
+    top: 10rem;
+    right: 50rem;
+}
+
+.buttonR {
+    padding: 10rem;
+    padding-bottom: 8rem;
+    padding-left: 10rem;
+    padding-right: 1rem;
+}
+
+.ghostKapı {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0;
+    top: 10rem;
+    left: 0rem;
+}
+
+.buttonK {
+    padding: 10rem;
+    padding-bottom: 20rem;
+    padding-left: 10rem;
+    padding-right: 4rem;
+}
+
+.ghostSaat {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0;
+    top: 2rem;
+    right: 30rem;
+}
+
+.buttonS {
+    padding: 10rem;
+    padding-bottom: 8rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.overlay {
+    background-color: black !important;
+}
+
+.overlayDiv {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    text-align: center;
+    border: 2px solid white !important;
+    z-index: 100000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    opacity: 0.9;
+    font-weight: bold;
+    font-family: 'Potta One', cursive;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 10rem;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.overlayContainer {
+    display: flex;
+    justify-content: space-around;
+}

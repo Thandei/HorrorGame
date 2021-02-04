@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Potta One', cursive;
+    overflow: hidden;
+    background-image: url("./haunted_hous1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin: 25vh auto;
+}
+
+.content {
+    text-align: center;
+    color: darkred;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.finish-paragraf {
+    font-size: 1rem !important;
+}
+
+.menuButton {
+    display: inline-block;
+    color: white !important;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.menuButton:hover {
+    font-size: 1.5rem;
+}
